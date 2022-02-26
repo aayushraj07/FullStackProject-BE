@@ -17,8 +17,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	runtimeOnly 'mysql:mysql-connector-java'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation group: 'org.springframework', name: 'spring-websocket', version: '5.3.16'
+	implementation group: 'org.springframework', name: 'spring-messaging', version: '5.2.1.RELEASE'
+	implementation group: 'org.postgresql', name: 'postgresql', version: '42.1.4'
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
 }
+

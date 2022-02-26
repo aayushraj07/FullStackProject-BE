@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="fullStack-BE.fullStack-BE.main~1" target="11" />
+      <module name="fullStack-BE.fullStack-BE.test~1" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
